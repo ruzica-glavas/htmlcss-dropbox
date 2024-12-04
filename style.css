@@ -47,3 +47,49 @@ a{
     padding: 10px;
     border:none;
 }
+
+.title{
+    display: flex;
+    
+    font-size: 35px;
+    background-color: #B4D0E6;
+    padding-inline-start: 250px;
+}
+
+.first-section{
+    display: flex;
+    justify-content: center;
+    background-color: #B4D0E6;
+    gap: 30px;
+    padding: 30px;
+}
+
+
+.img-jumbo{
+    width: 600px;
+}
+
+.paragraph-btn{
+    flex-basis: 400px;
+}
+
+p{
+    margin-bottom: 20px;
+}
+
+
+.btn-blue{
+    display: block;
+    margin-bottom: 10px;
+    background-color: #0061FE;
+    padding: 15px;
+    color:white;
+}
+
+.btn-white{
+    background-color: transparent;
+    border: none;
+    padding:15px;
+}
+
+
