@@ -13,6 +13,8 @@ header{
     margin: 0 auto;
 }
 
+/* Prima parte del main */
+
 .links-left{
     display: flex;
     padding: 20px;
@@ -66,7 +68,7 @@ a{
 
 
 .img-jumbo{
-    width: 600px;
+    width: 600px
 }
 
 .paragraph-btn{
@@ -97,4 +99,27 @@ p{
     font-size: 50px;
 }
 
+/* Seconda parte del main */
+
+.second-title{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.billing-options{
+    display: flex;
+    justify-content: center;
+    list-style:circle;
+    gap: 90px;
+    background-color: white;
+}
+
+
+.second-section{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    flex-basis: 100px;
+}
 
