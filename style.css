@@ -279,3 +279,48 @@ hr{
 }
 
 /* Quarta parte del main */
+
+.title-4{
+    display: flex;
+    justify-content: center;
+    padding:20px;
+    flex-basis: calc(100%/3);
+}
+
+.container-4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+
+
+.card-img{
+    width: 310px;
+}
+
+.card-1{
+    margin: 30px 30px;
+}
+
+.card-2{
+    margin: 30px 30px;
+}
+
+.card-3{
+    margin: 30px 30px;
+}
+
+.card-4{
+    margin: 30px 30px;
+}
+
+.card-5{
+    margin: 30px 30px;
+}
+
+.card-6{
+    margin: 30px 30px;
+}
