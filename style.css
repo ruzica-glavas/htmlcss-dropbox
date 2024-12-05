@@ -65,6 +65,7 @@ header{
     background-color: #B4D0E6;
     gap: 30px;
     padding: 30px;
+    background: linear-gradient(#b4d0e6 80%, white 20%);
 }
 
 
@@ -98,7 +99,7 @@ p{
 
 .arrow{
     display:block;
-    font-size: 70px;
+    font-size: 60px;
 }
 
 /* Seconda parte del main */
@@ -108,6 +109,7 @@ p{
     justify-content: center;
     background-color: white;
     margin-bottom: 10px;
+    margin-top: 20px;
 }
 
 .billing-options{
@@ -185,6 +187,12 @@ p{
     list-style: none;
     gap: 10px;
 }
+
+.fa-share-nodes{
+    margin-right: 10px;
+    text-indent: 10px;
+}
+
 
 hr{
     width:20%;
