@@ -329,4 +329,35 @@ hr{
 .title-five{
     margin-left: 235px;
     margin-top: 50px;
+    margin-bottom: 100px;
 }
+
+/* Footer */
+
+footer{
+    background-color: #000000;
+    
+}
+
+.info-footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.list-footer{
+    list-style: none;
+    color:white;
+    margin-bottom:10px;
+}
+
+.footer-line{
+    margin-left: 70px;
+}
+
+.language-choice{
+    color:white;
+    display: flex;
+    margin-left: 70px;
+    margin-top:20px;
+}
+
