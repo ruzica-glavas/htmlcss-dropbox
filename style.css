@@ -129,6 +129,7 @@ p{
     flex-basis: 100px;
     border-color: lightgray;
     background-color: white;
+    margin-bottom: 40px;
     
 }
 
@@ -195,10 +196,53 @@ p{
 
 
 hr{
-    width:20%;
+    width: 20px;
     border-color: lightgrey;
 }
 
 .team-section{
+    margin-right: 240px;
+    margin-left: 240px;
+}
+
+.icon-team{
     display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-right: 240px;
+    margin-left: 240px;
+    
+}
+
+.title-btn{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-enterprises-left{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+
+}
+
+.btn-enterprises-container-right{
+    display: flex;
+}
+
+.btn-enterprises{
+    background-color: #0061FE;
+    color:white;
+    height: 70%;
+}
+
+.team-section{
+    border: 1px solid lightgrey;
+    
+}
+
+.icon-line{
+    border: 1px solid;
+    width: 100%;
+    color: lightgrey;
 }
