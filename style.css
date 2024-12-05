@@ -198,3 +198,7 @@ hr{
     width:20%;
     border-color: lightgrey;
 }
+
+.team-section{
+    display: flex;
+}
