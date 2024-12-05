@@ -296,7 +296,6 @@ hr{
     
 }
 
-
 .card-img{
     width: 310px;
 }
@@ -323,4 +322,11 @@ hr{
 
 .card-6{
     margin: 30px 30px;
+}
+
+/* Quinta parte del main */
+
+.title-five{
+    margin-left: 235px;
+    margin-top: 50px;
 }
