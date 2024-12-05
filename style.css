@@ -87,6 +87,7 @@ p{
     background-color: #0061FE;
     padding: 15px;
     color:white;
+    width:70%;
 }
 
 .btn-white{
@@ -97,7 +98,7 @@ p{
 
 .arrow{
     display:block;
-    font-size: 50px;
+    font-size: 70px;
 }
 
 /* Seconda parte del main */
@@ -106,6 +107,7 @@ p{
     display: flex;
     justify-content: center;
     background-color: white;
+    margin-bottom: 10px;
 }
 
 .billing-options{
@@ -114,6 +116,7 @@ p{
     list-style:circle;
     gap: 90px;
     background-color: white;
+    margin-bottom: 10px;
 }
 
 
@@ -129,13 +132,61 @@ p{
 
 .professional{
     flex-basis: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: 1px solid;
+    border-color: lightslategray;
+    
 }
+
+.icon{
+    border: 1px solid;
+    border-color: lightslategray;
+    padding: 10px;
+}
+
+
+.professional .icon{
+    text-align: center;
+}
+
+
 
 .advanced{
     flex-basis: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: 1px solid;
+    border-color: lightslategray;
+}
+
+
+.advanced .icon{
+    text-align: center;
 }
 
 
 .enterprise{
     flex-basis: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: 1px solid;
+    border-color: lightslategray;
+}
+
+.enterprise .icon{
+    text-align: center;
+}
+
+.items-business-plan{
+    list-style: none;
+    gap: 10px;
+}
+
+hr{
+    width:20%;
+    border-color: lightgrey;
 }
